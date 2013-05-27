@@ -7,8 +7,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class B0t {
   
-	public String ID_Name = "soome_apners" ;
-	public String ID_Pass = "salem100" ;
+	public String ID_Name = "soome_apners" ; // user name
+	public String ID_Pass = "password" ; // pass user
 	public String comen = "name=comment";
 	public WebDriver dr ; // web driver
 	public WebElement qu ; // web Element
