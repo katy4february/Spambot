@@ -19,14 +19,14 @@ public class B0t {
 	{	
 	        // login
 	        dr = new FirefoxDriver();
-	        dr.get("http://www.stardoll.com/ar/user/?id=86253902");
+	        dr.get("http://www.stardoll.com/ru/user/?id=226970907");
 	        
 	        qu = dr.findElement(By.name("user"));
 	        qu.sendKeys(this.ID_Name);
 	        qu = dr.findElement(By.name("pass"));
 	        qu.sendKeys(this.ID_Pass);
 	        qu.submit();       
-	        dr.get("http://www.stardoll.com/ar/user/?id=234584934");
+	        dr.get("http://www.stardoll.com/ru/user/?id=226970907");
 	}
 	
 	        // comment last any user
