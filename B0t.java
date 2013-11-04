@@ -19,14 +19,14 @@ public class B0t {
 	{	
 	        // login
 	        dr = new FirefoxDriver();
-	        dr.get("http://www.stardoll.com/ar/user/?id=86253902");
+	        dr.get("http://www.stardoll.com/ru/user/?id=226970907");
 	        
 	        qu = dr.findElement(By.name("user"));
 	        qu.sendKeys(this.ID_Name);
 	        qu = dr.findElement(By.name("pass"));
 	        qu.sendKeys(this.ID_Pass);
 	        qu.submit();       
-	        dr.get("http://www.stardoll.com/ar/user/?id=234584934");
+	        dr.get("http://www.stardoll.com/ru/user/?id=226970907");
 	}
 	
 	        // comment last any user
@@ -40,7 +40,7 @@ public class B0t {
 	        //q3 = dr.findElement(By.tagName("name=comment"));
 	        //if(this.comen == "name=comment")
 	        //{
-	        //q3.sendKeys("woow nice 5-5 and plz vot me :)");
+	        //q3.sendKeys("You look great, 5/5! Please, visit my bazaar ;)");
 	        //q3.submit();
 	        //}
 	        
@@ -49,7 +49,7 @@ public class B0t {
 	        
 	        //q3 = dr.findElement(By.name(this.comen));
 	        //if(this.comen == "comment")
-	        //q3.sendKeys("nice 5/5 and plz vot me :)");
+	        //q3.sendKeys("Such a beautiful dolly, 5/5!");
 	        //q3.submit();
 	        
 	        U1 = dr.findElement(By.xpath("//div[@id='lastVisitors']/div[2]/div[2]/ul/li[3]/a/span[2]"));
